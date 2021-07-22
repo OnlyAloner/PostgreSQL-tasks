@@ -1,0 +1,7 @@
+CREATE TABLE tasklist(
+    id serial primary key,
+    assignee varchar(80) not null,
+    title varchar(80) not null,
+    deadline timestamp defaule now(),
+    done boolean
+);

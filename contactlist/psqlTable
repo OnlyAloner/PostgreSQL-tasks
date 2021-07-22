@@ -1,0 +1,8 @@
+CREATE TABLE contactlist(
+    id serial primary key,
+    name varchar(80) not null,
+    phone varchar(80) not null,
+    gender varchar(80) not null,
+    email varchar(80) not null,
+    createdat timestamp defaule now()
+);
