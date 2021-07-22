@@ -1,5 +1,5 @@
-module github.com/OnlyAloner/postgresql
+module postgresql
 
 go 1.16
 
-require github.com/lib/pq
+require github.com/lib/pq v1.10.2
